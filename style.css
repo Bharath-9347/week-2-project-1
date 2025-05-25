@@ -1,0 +1,70 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  background-color: #000;
+}
+
+.hero {
+  background-image: url('https://images.unsplash.com/photo-1529655683826-aba9b3e77383');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 0.2em;
+}
+
+.desc {
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+
+.date-time, .venue {
+  margin: 0.5em 0;
+}
+
+.rsvp-btn {
+  background-color: #f76c6c;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1em;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.rsvp-btn:hover {
+  background-color: #d94b4b;
+}
+
+.socials {
+  margin-top: 1em;
+  font-size: 0.9em;
+}
+
+.socials a {
+  color: #f0f0f0;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.socials a:hover {
+  text-decoration: underline;
+}
